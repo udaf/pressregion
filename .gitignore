@@ -1,6 +1,6 @@
 .idea
-/www/protected/runtime
-/www/assets
 main.php
 console.php
 .DS_Store
+protected/runtime/*
+public/assets/*
