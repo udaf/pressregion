@@ -1,6 +1,5 @@
 .idea
 main.php
 console.php
-.DS_Store
 protected/runtime/*
 public/assets/*
