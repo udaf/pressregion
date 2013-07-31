@@ -1,5 +1,5 @@
 .idea
 main.php
 console.php
-protected/runtime/*
-public/assets/*
+www/protected/runtime/*
+www/assets/*
