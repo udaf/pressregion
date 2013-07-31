@@ -1,5 +1,7 @@
-.idea
+.idea/
 main.php
 console.php
-www/protected/runtime/*
-www/assets/*
+/.idea/
+.DS_Store
+protected/runtime/*
+public/assets/*
