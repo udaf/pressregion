@@ -4,7 +4,7 @@ class m130730_111206_create_table_pr_press extends CDbMigration
 {
 	public function up()
 	{
-        $this->createTable('pr_press',array(
+        $this->createTable('{{press}}',array(
             'id'=>'pk',
             'city_id'=>'integer',
             'name'=>'string',
@@ -16,7 +16,7 @@ class m130730_111206_create_table_pr_press extends CDbMigration
 
 	public function down()
 	{
-		$this->dropTable('pr_press');
+		$this->dropTable('{{press}}');
 	}
 
 	/*

@@ -4,7 +4,7 @@ class m130730_103535_create_table_pr_regions extends CDbMigration
 {
 	public function up()
 	{
-        $this->createTable('pr_regions', array(
+        $this->createTable('{{regions}}', array(
             'id' => 'pk',
             'name' => 'string',
             'code' => 'integer',
@@ -13,7 +13,7 @@ class m130730_103535_create_table_pr_regions extends CDbMigration
 
 	public function down()
 	{
-		$this->dropTable('pr_regions');
+		$this->dropTable('{{regions}}');
 	}
 
 	/*
